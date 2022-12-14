@@ -6,6 +6,26 @@
 
 > The module lecture slides are available in this repo, and the lecture is scheduled to take place on the afternoon of 31 January 2023.
 
+##  Set up environment locally
+
+You can either attempt these exercises via an online environment called [BinderHub](https://mybinder.org/v2/gh/hsma5/5d_geopandas/HEAD) (no local installs required). Otherwise, to get the correct libraries and versions locally it is recommended that you use the provided conda `environment.yml` file. To create and activate the `geopandas` environment follow the instructions below.
+
+To create environment. Navigate to the `binder` folder.
+
+`conda env create -f environment.yml`
+
+To activate environment:
+
+`conda activate geopandas`
+
+To deactivate:
+
+`conda deactivate`
+
+To remove the environment (if desired):
+
+`conda env remove -n geopandas`
+
 ## Description of materials.
 
 We'll get straight into a guided code along before you'll work within your PSGs to complete an exercise.
